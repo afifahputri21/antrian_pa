@@ -441,8 +441,8 @@ class Antrian extends CI_Controller
             redirect('Pasien/tambah1');
         }
 
-        $this->load->view('layout/header', $data);
-        $this->load->view('Antrian/vw_tambah_antrian', $data);
-        $this->load->view('layout/footer');
+        $this->load->view('layout\header', $data);
+        $this->load->view('Antrian\vw_tambah_antrian', $data);
+        $this->load->view('layout\footer');
     }
 }
