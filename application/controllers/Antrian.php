@@ -378,9 +378,9 @@ class Antrian extends CI_Controller
         } else {
             redirect('Pasien/tambah1');
         }
-        $this->load->view('layout\header', $data);
-        $this->load->view('Antrian\vw_tambah_antrian', $data);
-        $this->load->view('layout\footer');
+        $this->load->view('layout/header', $data);
+        $this->load->view('Antrian/vw_tambah_antrian', $data);
+        $this->load->view('layout/footer');
     }
 
     public function on($nik)
@@ -415,9 +415,9 @@ class Antrian extends CI_Controller
         } else {
             redirect('Pasien/tambah1');
         }
-        $this->load->view('layout\header', $data);
-        $this->load->view('Antrian\vw_tambah_antrian', $data);
-        $this->load->view('layout\footer');
+        $this->load->view('layout/header', $data);
+        $this->load->view('Antrian/vw_tambah_antrian', $data);
+        $this->load->view('layout/footer');
     }
     public function search()
     {
@@ -441,8 +441,8 @@ class Antrian extends CI_Controller
             redirect('Pasien/tambah1');
         }
 
-        $this->load->view('layout\header', $data);
-        $this->load->view('Antrian\vw_tambah_antrian', $data);
-        $this->load->view('layout\footer');
+        $this->load->view('layout/header', $data);
+        $this->load->view('Antrian/vw_tambah_antrian', $data);
+        $this->load->view('layout/footer');
     }
 }
